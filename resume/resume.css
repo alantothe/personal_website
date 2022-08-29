@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-color: rgb(16, 16, 16);
+}
+hr {
+    border: 1px solid black;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+h3{
+    margin: 0px;
+    width: fit-content;
+    display:inline;
+    
+    
+    
+    
+}
+h4{
+    margin-bottom: 0px;
+}
+p{
+    font-family: "Raleway";
+    color: rgb(106, 106, 106);
+    
+}
+/* Flex Boxes*/
+.flex-container, html, body {
+
+   
+    margin: 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px 260px 100px 260px;
+
+    
+  
+    
+
+}
+.flex-sidebar{
+   
+width: 380px;
+height: 100vh;
+border: 1px solid black;
+background-color: rgb(62, 62, 63);
+text-align: center;
+padding: 30px 30px 30px 30px;
+}
+.flex-container-resume{
+    
+width: 100%;
+height: 100vh;
+
+border: 1px solid black;
+background-color: rgb(251, 251, 251);
+padding: 30px 30px 30px 30px;
+
+
+}
+/* Resume Side */
+#name{
+    text-align: center;
+    margin-bottom: .5px;
+    font-family: "EB Garamond";
+}
+#under-bar{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 12px;
+    font-style: thin;
+    color: rgb(106, 106, 106);
+
+}
+.catagories{
+
+    text-transform: uppercase;
+    font-family: "Lato";
+    font-style: normal;
+    font-size: 26px;
+    color: rgb(106, 106, 106);
+    padding-bottom: 5px;
+    padding-top: 5px;
+   
+
+}
+.school-position-{
+    font-family: "Lato";
+
+}
+#school-1{
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+#position-duties{
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+
+}
+.awards{
+    font-family: "Lato";
+    padding-top: px;
+    padding-bottom: 4px;
+    
+}
+#date-location{
+    display:inline;
+    font-family: "Lato";
+}
+#school{
+    margin: 5px 5px 5px 5px;
+}
+
+/* Left-side */
+
+#alan-photo{
+
+    size: 50%;
+    border-radius: 60%;
+    width: 125px;
+    height: 125px;
+    background-color: #fff; 
+    border: 7px solid black;
+    
+   
+  
+
+    
+}
+#line-side {
+    border: 1px solid black;
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    opacity: 40%;
+}
+#name-side{
+    font-family: "Lato";
+    color: rgb(214, 219, 223);
+    margin-bottom: 2px;
+
+}
+#job{
+    color: rgb(236, 236, 96);
+    font-family: "Lato";
+}
+.icon{
+    vertical-align: middle;
+    display: inline-block;
+    stroke: rgb(251, 251, 251);
+    
+    
+}
+.icon-p{
+    text-align: left;
+    padding-left: auto;
+    color: rgb(214, 219, 223);
+    font-size: small
+    ;
+
+}
+#contact-side{
+    font-family: "Lato";
+    color: rgb(214, 219, 223);
+    margin-bottom: 2px;
+    text-align: left;
+    padding: 20px 5px 10px 0px;
+    
+
+}
+.icon-container{
+    padding: 5px 5px 5px 5px;
+    
+}
+.skills{
+    text-align: left;
+    padding: 4px 5px 5px 5px;
+    color: rgb(214, 219, 223);
+    font-size: small
+
+}
+#summary-text{
+    padding-bottom: 15px;
+}
+#button-div {
+    padding-top: 30px;
+}
+.btn {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #222;
+    padding: 17px 60px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+.btn span {
+    position: relative; 
+    z-index: 1;
+  }
+.btn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: rgb(188, 188, 81);
+    
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  }
+.btn:hover:after {
+    
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
